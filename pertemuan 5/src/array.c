@@ -9,7 +9,7 @@ int main()
 
     // array 1 dimensi
 
-        // dengan array
+    // dengan array
     // index -> lokasi atau posisi suatu nilai di dalam array
     //                0 1 2 3 4
     // int angka[] = {1,2,3,4,5}; // nilai array langsung diisi
@@ -24,22 +24,22 @@ int main()
 
     // printf("index -0 %d", angka[3]);
 
-    // input nilai ke dalam array menggunakan looping
-    for (int i = 0; i < 5; i++)
-    {
-        angka[i] = i + 2;
-    }
-    // mencetak nilai dari array
-    for (int i = 0; i < 5; i++)
-    {
-        printf("index ke-%d = %d\n", i, angka[i]);
-    }
+    // // input nilai ke dalam array menggunakan looping
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     angka[i] = i + 2;
+    // }
+    // // mencetak nilai dari array
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("index ke-%d = %d\n", i, angka[i]);
+    // }
 
-    char nama[25];
+    // char nama[25];
 
-    scanf(" %s", &nama);
+    // scanf(" %s", &nama);
 
-    printf("%s", nama);
+    // printf("%s", nama);
 
     return 0;
 }
