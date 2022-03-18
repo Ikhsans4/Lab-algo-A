@@ -1,30 +1,32 @@
-#include <stdio.h>
+// #include<stdio.h>
+// #include<string.h>//penting
 
-int tambah(int a, int b)
-{
-    int hasil = a + b;
-    return hasil;
-}
+// int main(){
+//     char univ[12] = "Universitas";
+//     char nama[] = "_Syiah Kuala";
 
-void print(int a, int b, int hasil)
-{
-    printf("hasil penjumlahan %d + %d = %d\n", a, b, hasil);
-}
-void printTambah(int a, int b)
-{
+//     //menggabungkan string
+//     strcat(univ, nama);
 
-    printf("hasil penjumlahan %d + %d = %d\n", a, b, tambah(a, b));
-}
+//     printf(univ);
 
-int main()
-{
-    int a = 10, b = 5;
-    int c = tambah(a, b);
-    printf("hasil penjumlahan = %d\n", c);
-    print(5, 2, c);
-    printTambah(5, 2);
+//     return 0;
+// }
 
-    // printf("%d", c);
+#include<stdio.h>
+#include<stdlib.h>
 
-    return 0;
+int main(){
+// 
+    // int a = 10;
+    char nama[10];
+
+    printf("program berhasil dijalankan");
+
+    printf("Masukkan nama anda : ");
+    scanf("%[^\n]s", nama);
+
+    printf("nama saya adalah : %s", nama);
+
+    return 2020;
 }

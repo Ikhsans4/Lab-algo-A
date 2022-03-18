@@ -1,11 +1,14 @@
-#include <stdio.h>
-#include <string.h>
+#include<stdio.h>
+#include<string.h>//penting
 
-int main()
-{
+int main(){
     char univ[] = "Universitas";
-    char nama[] = " Syiah Kuala";
-    // strcat(univ, nama);
+    char nama[] = "_Syiah Kuala";
+
+    //menggabungkan string
+    strcat(univ, nama);
+
     printf(univ);
+
     return 0;
 }
